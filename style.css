@@ -54,7 +54,7 @@ form input{
 form .fa-search{
     width: 9%;
     font-size: 3rem;
-    margin: -9px;
+    margin: 10px -10px;
     color: rgb(75, 75, 75);
     cursor: pointer;
 }
@@ -106,4 +106,29 @@ form .fa-search{
     font-size: 1.4rem;
     letter-spacing: .05rem;
     line-height: 2rem;
+}
+.container.initial .brand{
+    font-size: 7rem;
+}
+.container.initial form{
+    max-width: 800px;
+}
+.container.initial form input{
+    padding: 20px;
+    font-size: 3rem;
+}
+@media (max-width:768px){
+    .search-result{
+        grid-gap: 10px;
+    }
+    .container.initial .brand{
+        font-size: 4rem;
+    }
+    .container.initial form{
+        max-width: 500px;
+    }
+    .container.initial form input{
+        padding: 10px;
+        font-size: 2rem;
+    }
 }
